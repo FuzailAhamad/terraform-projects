@@ -4,3 +4,7 @@
 .dovekey
 dovekey
 *.pem
+*.key
+*.ppk
+id_rsa
+id_rsa.pub
