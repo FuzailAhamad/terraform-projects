@@ -9,7 +9,7 @@ resource "aws_security_group" "dove-sg" {
 
 resource "aws_vpc_security_group_ingress_rule" "sshfromyIP" {
   security_group_id = aws_security_group.dove-sg.id
-  cidr_ipv4         = "0.0.0.0/0" # Replace with your IP address or CIDR block
+  cidr_ipv4         = "0.0.0.0/0"
   from_port         = 22
   ip_protocol       = "tcp"
   to_port           = 22
