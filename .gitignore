@@ -1,0 +1,6 @@
+*.tfstate
+*.tfstate.backup
+.terraform/
+.dovekey
+dovekey
+*.pem
